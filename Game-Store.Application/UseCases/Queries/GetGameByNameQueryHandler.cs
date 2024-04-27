@@ -22,7 +22,8 @@ namespace Game_Store.Application.UseCases.Queries
                 throw new NotFoundException("Game not found");
             }
             else
-            {
+            { 
+
                 return game;
             }
 
