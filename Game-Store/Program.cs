@@ -1,3 +1,5 @@
+using Game_Store.Infrastructure;
+
 namespace Game_Store
 {
     public class Program
@@ -8,6 +10,8 @@ namespace Game_Store
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddInfrastructure(builder.Configuration);
 
             var app = builder.Build();
 
