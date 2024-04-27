@@ -1,4 +1,5 @@
 using Game_Store.Infrastructure;
+using Game_Store.Middlewares;
 
 namespace Game_Store
 {
