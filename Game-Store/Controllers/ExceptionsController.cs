@@ -14,6 +14,7 @@ namespace Game_Store.Controllers
                 Message = message
             };
             return View(model);
+
         }
         public IActionResult NotFound()
         {
