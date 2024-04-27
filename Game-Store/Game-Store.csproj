@@ -7,4 +7,9 @@
     <RootNamespace>Game_Store</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Game-Store.Application\Game-Store.Application.csproj" />
+    <ProjectReference Include="..\Game-Store.Infrastructure\Game-Store.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
