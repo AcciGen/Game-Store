@@ -23,6 +23,8 @@ namespace Game_Store
                 app.UseHsts();
             }
 
+            app.UseMiddleware<GlobalExceptionHandling>();
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
