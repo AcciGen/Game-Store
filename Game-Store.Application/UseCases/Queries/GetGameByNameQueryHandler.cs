@@ -16,8 +16,8 @@ namespace Game_Store.Application.UseCases.Queries
         public async Task<Game> Handle(GetGameByNameQuery request, CancellationToken cancellationToken) 
         {
             var game = await _appDbContext.Games.FirstOrDefaultAsync(x => x.Name == request.GameName);
-
-            if (game == null)
+               
+            if (game == null) 
             {
                 throw new NotFoundException("Game not found");
             }
