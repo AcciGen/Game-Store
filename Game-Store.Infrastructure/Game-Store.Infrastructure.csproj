@@ -1,15 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <RootNamespace>Game_Store.Infrastructure</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Game_Store</RootNamespace>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Game-Store.Application\Game-Store.Application.csproj" />
-    <ProjectReference Include="..\Game-Store.Infrastructure\Game-Store.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
